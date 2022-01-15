@@ -4,14 +4,14 @@
 
 /* 使用位域的方式，进行二进制转换 */
 struct char_bit {
-	unsigned int b0:1;
-	unsigned int b1:1;
-	unsigned int b2:1;
-	unsigned int b3:1;
-	unsigned int b4:1;
-	unsigned int b5:1;
-	unsigned int b6:1;
-	unsigned int b7:1;
+	unsigned char b0:1;
+	unsigned char b1:1;
+	unsigned char b2:1;
+	unsigned char b3:1;
+	unsigned char b4:1;
+	unsigned char b5:1;
+	unsigned char b6:1;
+	unsigned char b7:1;
 };
 /* 打印ASCII表中可打印字符 */
 
